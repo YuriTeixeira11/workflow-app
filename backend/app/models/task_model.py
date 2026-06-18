@@ -2,8 +2,8 @@ from sqlalchemy import Column, DateTime, Enum, ForeignKey, Integer, String, Text
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 
-from backend.app.database import Base
-from backend.app.enums import TaskPriority, TaskStatus
+from app.database import Base
+from app.enums import TaskPriority, TaskStatus
 
 
 class Task(Base):
